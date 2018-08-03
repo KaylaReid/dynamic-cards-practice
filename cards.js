@@ -28,9 +28,9 @@ function createElement(){
     let makeIt = document.querySelector(".makeIt").value;
     console.log("make It", makeIt);
     cardPrintsHere.innerHTML +=
-    `<div class="aCard">
-        <h2>Makin Cards</h2>
-        <p>${makeIt}</p>
+    `<div class="aCard card border-info">
+        <h2 class="card-title center">Makin Cards</h2>
+        <p class="card-subtitle mb-2 text-muted center">${makeIt}</p>
         <button class="delete-button">Delete</button>
     </div>`
 
